@@ -1,0 +1,27 @@
+{
+  "periodicSoapDS": {
+    "url": "http://www.dneonline.com/calculator.asmx",
+    "name": "periodicSoapDS",
+    "wsdl": "http://www.dneonline.com/calculator.asmx?WSDL",
+    "remotingEnabled": true,
+    "connector": "soap"
+  },
+  "epres": {
+    "url": "http://eprescriberegistrationint.allscripts.com/regws/erxnowregsrv.asmx",
+    "name": "epres",
+    "wsdl": "http://eprescriberegistrationint.allscripts.com/regws/erxnowregsrv.asmx?WSDL",
+    "remotingEnabled": true,
+    "connector": "soap",
+    "soapHeaders": [
+      {
+        "element": {
+          "AuthHeader": `<PartnerID>string</PartnerID>
+          <UserName>string</UserName>
+          <Password>string</Password>`
+        },
+        "prefix": "AuthHeader",
+        "namespace": "https://stscripts.allscripts.com/"
+      }
+    ]
+  }
+}

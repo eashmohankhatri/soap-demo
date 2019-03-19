@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "soap_CalculatorSoap": {
+    "dataSource": null,
+    "public": true
+  },
+  "Add": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "Subtract": {
+    "dataSource": null,
+    "public": true
+  },
+  "SubtractResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "Multiply": {
+    "dataSource": null,
+    "public": true
+  },
+  "MultiplyResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "Divide": {
+    "dataSource": null,
+    "public": true
+  },
+  "DivideResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "soap_eRxNowRegSrvSoap": {
+    "dataSource": null,
+    "public": true
+  },
+  "UserNameExists": {
+    "dataSource": null,
+    "public": true
+  },
+  "UserNameExistsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "HelloFriend": {
+    "dataSource": null,
+    "public": true
+  },
+  "HelloFriendResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddSite": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddSiteResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdSite": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdSiteResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddUser": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddUserResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdUser": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdUserResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ReleaseVersion": {
+    "dataSource": null,
+    "public": true
+  },
+  "ReleaseVersionResponse": {
+    "dataSource": null,
+    "public": true
+  }
+}
