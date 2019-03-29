@@ -1,0 +1,45 @@
+{
+  "name": "OfficeLocation",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "SiteID": {
+      "type": "string"
+    },
+    "SiteName": {
+      "type": "string"
+    },
+    "Address1": {
+      "type": "string"
+    },
+    "Address2": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "ZipCode": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "Phone"
+    },
+    "Fax": {
+      "type": "Phone"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

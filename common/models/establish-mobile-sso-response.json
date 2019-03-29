@@ -1,0 +1,30 @@
+{
+  "name": "EstablishMobileSsoResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ErrorMessage": {
+      "type": "string"
+    },
+    "ResponseType": {
+      "type": "ServiceResponseType"
+    },
+    "ErrorCodeCode": {
+      "type": "SSOErrorCode"
+    },
+    "SsoSessionToken": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

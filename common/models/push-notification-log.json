@@ -1,0 +1,36 @@
+{
+  "name": "PushNotificationLog",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PartnerID": {
+      "type": "string"
+    },
+    "CreatedUtc": {
+      "type": "dateTime"
+    },
+    "CreatedUtcDisplayText": {
+      "type": "string"
+    },
+    "RecordCount": {
+      "type": "number"
+    },
+    "BatchStatus": {
+      "type": "PushNotificationBatchStatus"
+    },
+    "BatchStatusDisplayText": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

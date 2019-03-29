@@ -1,0 +1,24 @@
+{
+  "name": "PartnerServiceResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ErrorMessage": {
+      "type": "string"
+    },
+    "ResponseType": {
+      "type": "ServiceResponseType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

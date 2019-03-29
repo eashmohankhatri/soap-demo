@@ -1,0 +1,63 @@
+{
+  "name": "PatientPlan",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PlanID": {
+      "type": "string"
+    },
+    "PlanName": {
+      "type": "string"
+    },
+    "GroupNumber": {
+      "type": "string"
+    },
+    "GroupName": {
+      "type": "string"
+    },
+    "CardHolderID": {
+      "type": "string"
+    },
+    "CardHolderFirstName": {
+      "type": "string"
+    },
+    "CardHolderMiddleName": {
+      "type": "string"
+    },
+    "CardHolderLastName": {
+      "type": "string"
+    },
+    "CardHolderPlanName": {
+      "type": "string"
+    },
+    "CardHolderPlanID": {
+      "type": "string"
+    },
+    "PharmacyBenefit": {
+      "type": "boolean"
+    },
+    "MailOrderBenefit": {
+      "type": "boolean"
+    },
+    "MailOrderBenfitNABP": {
+      "type": "string"
+    },
+    "InfoSourceName": {
+      "type": "string"
+    },
+    "CardHolderBinNumber": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

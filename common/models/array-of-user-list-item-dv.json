@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfUserListItemDV",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "UserListItemDV": {
+      "type": "UserListItemDV"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

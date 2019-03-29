@@ -1,0 +1,21 @@
+{
+  "name": "RetrieveScriptFromDocumentStore",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "request": {
+      "type": "RetrieveScriptFromDocumentStoreRequest"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "TaskFilter",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientId": {
+      "type": "PatientID"
+    },
+    "LicenseID": {
+      "type": "string"
+    },
+    "ProviderID": {
+      "type": "string"
+    },
+    "IncludeUnreconciledTasks": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

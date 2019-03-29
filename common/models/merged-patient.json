@@ -1,0 +1,30 @@
+{
+  "name": "MergedPatient",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "VictimPatientGUID": {
+      "type": "string"
+    },
+    "SurvivingPatientGUID": {
+      "type": "string"
+    },
+    "MergeUserID": {
+      "type": "string"
+    },
+    "MergedDateTimeUTC": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

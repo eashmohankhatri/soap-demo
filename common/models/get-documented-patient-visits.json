@@ -1,0 +1,30 @@
+{
+  "name": "GetDocumentedPatientVisits",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "partnerID": {
+      "type": "string"
+    },
+    "license": {
+      "type": "License"
+    },
+    "fromDateTimeUTC": {
+      "type": "dateTime"
+    },
+    "toDateTimeUTC": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

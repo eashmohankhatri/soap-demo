@@ -1,0 +1,21 @@
+{
+  "name": "GetDocumentedPatientVisitsResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "GetDocumentedPatientVisitsResult": {
+      "type": "PatientListDV"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

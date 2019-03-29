@@ -1,0 +1,30 @@
+{
+  "name": "GetEPATaskStatusResults",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "EPATasks": {
+      "type": "ArrayOfEPATask"
+    },
+    "LicenseID": {
+      "type": "string"
+    },
+    "ResponseStatus": {
+      "type": "ResponseStatus"
+    },
+    "ErrorMessage": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

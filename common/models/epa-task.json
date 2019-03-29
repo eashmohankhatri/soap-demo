@@ -1,0 +1,33 @@
+{
+  "name": "EPATask",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "TaskID": {
+      "type": "string"
+    },
+    "StatusName": {
+      "type": "string"
+    },
+    "StatusID": {
+      "type": "number"
+    },
+    "PatientID": {
+      "type": "string"
+    },
+    "DecisionResponseNotes": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "PatientIDLicense",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Value": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "PatientIDType"
+    },
+    "License": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

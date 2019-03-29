@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfPatientListItemDV",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientListItemDV": {
+      "type": "PatientListItemDV"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

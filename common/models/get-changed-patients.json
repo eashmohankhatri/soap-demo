@@ -1,0 +1,24 @@
+{
+  "name": "GetChangedPatients",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "license": {
+      "type": "License"
+    },
+    "fromDateTimeUTC": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

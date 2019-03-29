@@ -1,0 +1,36 @@
+{
+  "name": "PatientListItemDV",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientGUID": {
+      "type": "string"
+    },
+    "PatientLastName": {
+      "type": "string"
+    },
+    "PatientFirstName": {
+      "type": "string"
+    },
+    "PerformedByID": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Performed_UTC": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

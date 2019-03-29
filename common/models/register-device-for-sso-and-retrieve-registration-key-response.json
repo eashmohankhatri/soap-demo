@@ -1,0 +1,21 @@
+{
+  "name": "RegisterDeviceForSsoAndRetrieveRegistrationKeyResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "RegisterDeviceForSsoAndRetrieveRegistrationKeyResult": {
+      "type": "RegisterDeviceForSsoResponse"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

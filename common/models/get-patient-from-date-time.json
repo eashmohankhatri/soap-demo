@@ -1,0 +1,24 @@
+{
+  "name": "GetPatientFromDateTime",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "patientID": {
+      "type": "PatientID"
+    },
+    "fromDateTimeUTC": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

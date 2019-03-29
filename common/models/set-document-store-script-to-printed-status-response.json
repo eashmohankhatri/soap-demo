@@ -1,0 +1,21 @@
+{
+  "name": "SetDocumentStoreScriptToPrintedStatusResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "SetDocumentStoreScriptToPrintedStatusResult": {
+      "type": "PartnerServiceResponse"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

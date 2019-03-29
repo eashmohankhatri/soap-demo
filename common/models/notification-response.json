@@ -1,0 +1,30 @@
+{
+  "name": "NotificationResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Status": {
+      "type": "ResponseStatus"
+    },
+    "Errors": {
+      "type": "Errors"
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Notifications": {
+      "type": "NotificationList"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

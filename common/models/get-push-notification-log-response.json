@@ -1,0 +1,27 @@
+{
+  "name": "GetPushNotificationLogResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ErrorMessage": {
+      "type": "string"
+    },
+    "ResponseType": {
+      "type": "ServiceResponseType"
+    },
+    "PushNotificationLogList": {
+      "type": "ArrayOfPushNotificationLog"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

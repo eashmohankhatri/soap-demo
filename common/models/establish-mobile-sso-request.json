@@ -1,0 +1,39 @@
+{
+  "name": "EstablishMobileSsoRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "SessionSaml": {
+      "type": "string"
+    },
+    "PartnerId": {
+      "type": "guid"
+    },
+    "LicenseId": {
+      "type": "guid"
+    },
+    "UserId": {
+      "type": "guid"
+    },
+    "DeviceKey": {
+      "type": "guid"
+    },
+    "BundleId": {
+      "type": "string"
+    },
+    "MobileAppVersion": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

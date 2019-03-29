@@ -1,0 +1,30 @@
+{
+  "name": "AuditInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "UserID": {
+      "type": "string"
+    },
+    "UserName": {
+      "type": "string"
+    },
+    "LicenseID": {
+      "type": "string"
+    },
+    "DefaultMobileSiteID": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "LinkPartnerUser",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "partnerID": {
+      "type": "string"
+    },
+    "LicenseID": {
+      "type": "License"
+    },
+    "UserName": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "GetPatientInfoRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientId": {
+      "type": "PatientID"
+    },
+    "FromDateTimeUtc": {
+      "type": "dateTime"
+    },
+    "CCRFormatType": {
+      "type": "CCRFormatType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

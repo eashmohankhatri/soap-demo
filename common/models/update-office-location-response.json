@@ -1,0 +1,75 @@
+{
+  "name": "UpdateOfficeLocationResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "LicenseID": {
+      "type": "string"
+    },
+    "PartnerID": {
+      "type": "string"
+    },
+    "Errors": {
+      "type": "ArrayOfErrors"
+    },
+    "OfficeID": {
+      "type": "number"
+    },
+    "OfficeName": {
+      "type": "string"
+    },
+    "Address1": {
+      "type": "string"
+    },
+    "Address2": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "ZipCode": {
+      "type": "string"
+    },
+    "PhoneAreaCode": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "FaxAreaCode": {
+      "type": "string"
+    },
+    "FaxNumber": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean"
+    },
+    "TimeZone": {
+      "type": "string"
+    },
+    "AllowAdmin": {
+      "type": "boolean"
+    },
+    "Preferences": {
+      "type": "ArrayOfPreferences"
+    },
+    "IsSuccessful": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

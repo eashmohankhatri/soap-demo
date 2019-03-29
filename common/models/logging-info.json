@@ -1,0 +1,39 @@
+{
+  "name": "LoggingInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CallingUserGuid": {
+      "type": "guid"
+    },
+    "PatientGuid": {
+      "type": "guid"
+    },
+    "CallingUserPartnerGuid": {
+      "type": "guid"
+    },
+    "CallingUserLicenseGuid": {
+      "type": "guid"
+    },
+    "AspnetSessionID": {
+      "type": "string"
+    },
+    "EnableLogging": {
+      "type": "boolean"
+    },
+    "CallingApplication": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

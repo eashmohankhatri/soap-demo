@@ -1,0 +1,36 @@
+{
+  "name": "Response",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Status": {
+      "type": "ResponseStatus"
+    },
+    "Errors": {
+      "type": "Errors"
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Patient": {
+      "type": "Patient"
+    },
+    "MergedPatient": {
+      "type": "MergedPatient"
+    },
+    "User": {
+      "type": "User"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "GetPushNotificationLogRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PartnerID": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "dateTime"
+    },
+    "EndDate": {
+      "type": "dateTime"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

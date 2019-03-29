@@ -1,0 +1,45 @@
+{
+  "name": "UserListItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "UserGUID": {
+      "type": "string"
+    },
+    "LicenseID": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "AppRoleID": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "IDProofingStatus": {
+      "type": "string"
+    },
+    "NPICheckStatus": {
+      "type": "string"
+    },
+    "EULAStatus": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

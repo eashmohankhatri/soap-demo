@@ -1,0 +1,21 @@
+{
+  "name": "GetEPATaskStatusResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "GetEPATaskStatusResult": {
+      "type": "GetEPATaskStatusResults"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

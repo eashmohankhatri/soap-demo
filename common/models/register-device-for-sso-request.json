@@ -1,0 +1,39 @@
+{
+  "name": "RegisterDeviceForSsoRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "DbId": {
+      "type": "ConnectionStringPointer"
+    },
+    "LicenseGuid": {
+      "type": "guid"
+    },
+    "UserGuid": {
+      "type": "guid"
+    },
+    "PartnerDeviceKeyGuid": {
+      "type": "guid"
+    },
+    "CallbackUrl": {
+      "type": "string"
+    },
+    "PartnerBundleId": {
+      "type": "string"
+    },
+    "PartnerGuid": {
+      "type": "guid"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

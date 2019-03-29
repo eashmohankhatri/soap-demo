@@ -1,0 +1,36 @@
+{
+  "name": "LinkPartnerUserNameRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientGuid": {
+      "type": "guid"
+    },
+    "LicenseGuid": {
+      "type": "guid"
+    },
+    "UserGuid": {
+      "type": "guid"
+    },
+    "PartnerID": {
+      "type": "string"
+    },
+    "UserName": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

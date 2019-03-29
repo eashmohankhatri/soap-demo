@@ -108,5 +108,529 @@
   "ReleaseVersionResponse": {
     "dataSource": null,
     "public": true
+  },
+  "soap_PartnerSvcSoap": {
+    "dataSource": null,
+    "public": true
+  },
+  "Version": {
+    "dataSource": null,
+    "public": true
+  },
+  "VersionResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetChangedPatients": {
+    "dataSource": null,
+    "public": true
+  },
+  "License": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetChangedPatientsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientList": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPatientListItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientListItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetAllChangedPatients": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetAllChangedPatientsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatient": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientID": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "Response": {
+    "dataSource": null,
+    "public": true
+  },
+  "Errors": {
+    "dataSource": null,
+    "public": true
+  },
+  "Patient": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientPlanList": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPatientPlan": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientPlan": {
+    "dataSource": null,
+    "public": true
+  },
+  "MergedPatient": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetDocumentedPatientVisits": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetDocumentedPatientVisitsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientListDV": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPatientListItemDV": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientListItemDV": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetLicenseUserIDs": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetLicenseUserIDsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UserListDV": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfUserListItemDV": {
+    "dataSource": null,
+    "public": true
+  },
+  "UserListItemDV": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetUser": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetUserResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "UserList": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfUserListItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "UserListItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientFromDateTime": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientFromDateTimeResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientDemo": {
+    "dataSource": null,
+    "public": true
+  },
+  "PatientIDLicense": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientDemoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SavePatient": {
+    "dataSource": null,
+    "public": true
+  },
+  "SavePatientResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PostHL7Message": {
+    "dataSource": null,
+    "public": true
+  },
+  "PostHL7MessageResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetTaskCount": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetTaskCountResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkPartnerUser": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkPartnerUserResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkPartnerUserName": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkPartnerUserNameRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "LinkPartnerUserNameResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNotifications": {
+    "dataSource": null,
+    "public": true
+  },
+  "NotificationFilter": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetNotificationsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "NotificationResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "NotificationList": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfNotificationListItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "NotificationListItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateNotification": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateNotificationResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetTasks": {
+    "dataSource": null,
+    "public": true
+  },
+  "TaskFilter": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetTasksResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "TaskResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "TaskList": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfTaskListItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "TaskListItem": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCCDFiles": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetCCDFilesResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CCDFileResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientCCD": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientCCDResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "CCDResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEPATaskStatus": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEPATaskStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetEPATaskStatusResults": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfEPATask": {
+    "dataSource": null,
+    "public": true
+  },
+  "EPATask": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientInfoRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPatientInfoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddOfficeLocation": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddOfficeLocationRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "AuditInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "LoggingInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPreferences": {
+    "dataSource": null,
+    "public": true
+  },
+  "Preferences": {
+    "dataSource": null,
+    "public": true
+  },
+  "AddOfficeLocationResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfErrors": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetOfficeLocations": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetOfficeLocationRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetOfficeLocationsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfOfficeLocation": {
+    "dataSource": null,
+    "public": true
+  },
+  "OfficeLocation": {
+    "dataSource": null,
+    "public": true
+  },
+  "Phone": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfString": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateOfficeLocation": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateOfficeLocationRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateOfficeLocationResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SavePatientCCD": {
+    "dataSource": null,
+    "public": true
+  },
+  "SavePatientCCDResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPendingScripts": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPendingScriptsRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPendingScriptsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfMessageQueueScriptInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "MessageQueueScriptInfo": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetFailedScripts": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetFailedScriptsRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetFailedScriptsResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "RetrieveScriptFromDocumentStore": {
+    "dataSource": null,
+    "public": true
+  },
+  "RetrieveScriptFromDocumentStoreRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "RetrieveScriptFromDocumentStoreResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "SetDocumentStoreScriptToPrintedStatus": {
+    "dataSource": null,
+    "public": true
+  },
+  "SetScriptToPrintedStatusRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "SetDocumentStoreScriptToPrintedStatusResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "PartnerServiceResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "RegisterDeviceForSsoAndRetrieveRegistrationKey": {
+    "dataSource": null,
+    "public": true
+  },
+  "RegisterDeviceForSsoRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "RegisterDeviceForSsoAndRetrieveRegistrationKeyResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "RegisterDeviceForSsoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "EstablishMobileSso": {
+    "dataSource": null,
+    "public": true
+  },
+  "EstablishMobileSsoRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "EstablishMobileSsoResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPushNotificationLog": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPushNotificationLogRequest": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetPushNotificationLogResponse": {
+    "dataSource": null,
+    "public": true
+  },
+  "ArrayOfPushNotificationLog": {
+    "dataSource": null,
+    "public": true
+  },
+  "PushNotificationLog": {
+    "dataSource": null,
+    "public": true
+  },
+  "User": {
+    "dataSource": null,
+    "public": true
+  },
+  "soap_PartnerSvcSoap12": {
+    "dataSource": null,
+    "public": true
   }
 }

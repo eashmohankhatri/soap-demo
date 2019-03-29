@@ -1,0 +1,33 @@
+{
+  "name": "CCDFileResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Status": {
+      "type": "ResponseStatus"
+    },
+    "Errors": {
+      "type": "Errors"
+    },
+    "Message": {
+      "type": "string"
+    },
+    "ZipFile1": {
+      "type": "string"
+    },
+    "ZipFile": {
+      "type": "base64Binary"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

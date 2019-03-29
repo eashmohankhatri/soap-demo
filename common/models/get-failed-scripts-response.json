@@ -1,0 +1,30 @@
+{
+  "name": "GetFailedScriptsResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Success": {
+      "type": "boolean"
+    },
+    "Messages": {
+      "type": "ArrayOfString"
+    },
+    "ExceptionID": {
+      "type": "string"
+    },
+    "MessageQueueScriptInfoList": {
+      "type": "ArrayOfMessageQueueScriptInfo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

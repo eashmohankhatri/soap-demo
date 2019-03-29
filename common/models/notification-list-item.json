@@ -1,0 +1,69 @@
+{
+  "name": "NotificationListItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "CreatedByID": {
+      "type": "string"
+    },
+    "CreatedByName": {
+      "type": "string"
+    },
+    "ChartID": {
+      "type": "string"
+    },
+    "Strength": {
+      "type": "string"
+    },
+    "PharmacyName": {
+      "type": "string"
+    },
+    "NotificationID": {
+      "type": "string"
+    },
+    "PatientID": {
+      "type": "string"
+    },
+    "PatientName": {
+      "type": "string"
+    },
+    "ProviderID": {
+      "type": "string"
+    },
+    "ProviderName": {
+      "type": "string"
+    },
+    "Medication": {
+      "type": "string"
+    },
+    "SIG": {
+      "type": "string"
+    },
+    "Dosage": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "number"
+    },
+    "Days": {
+      "type": "number"
+    },
+    "Refills": {
+      "type": "number"
+    },
+    "DAW": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

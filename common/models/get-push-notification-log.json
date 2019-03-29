@@ -1,0 +1,21 @@
+{
+  "name": "GetPushNotificationLog",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "getPushNotificationLogRequest": {
+      "type": "GetPushNotificationLogRequest"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

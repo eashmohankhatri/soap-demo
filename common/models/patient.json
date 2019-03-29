@@ -1,0 +1,93 @@
+{
+  "name": "Patient",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "PatientID": {
+      "type": "PatientID"
+    },
+    "PatientGUID": {
+      "type": "string"
+    },
+    "MRN": {
+      "type": "string"
+    },
+    "LicenseID": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "MiddleInitial": {
+      "type": "string"
+    },
+    "Address1": {
+      "type": "string"
+    },
+    "Address2": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "ZIPCode": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "MedHistReq": {
+      "type": "string"
+    },
+    "DateOfBirth": {
+      "type": "dateTime"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "CCR": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "PatientStatus"
+    },
+    "PatientPlanList": {
+      "type": "PatientPlanList"
+    },
+    "PatSchedule": {
+      "type": "boolean"
+    },
+    "preferredLanguage": {
+      "type": "string"
+    },
+    "Weight": {
+      "type": "string"
+    },
+    "CCD": {
+      "type": "string"
+    },
+    "IsHealthPlanDisclosable": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

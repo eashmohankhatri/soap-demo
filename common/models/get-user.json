@@ -1,0 +1,27 @@
+{
+  "name": "GetUser",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "partnerID": {
+      "type": "string"
+    },
+    "license": {
+      "type": "License"
+    },
+    "UserGUID": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

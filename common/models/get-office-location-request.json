@@ -1,0 +1,39 @@
+{
+  "name": "GetOfficeLocationRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "reqAuditInfo": {
+      "type": "AuditInfo"
+    },
+    "DbID": {
+      "type": "ConnectionStringPointer"
+    },
+    "EPrescribeApplication": {
+      "type": "ePrescribeApplication"
+    },
+    "PerformanceLogTransactionID": {
+      "type": "string"
+    },
+    "LoggingInfo": {
+      "type": "LoggingInfo"
+    },
+    "PartnerID": {
+      "type": "string"
+    },
+    "LicenseID": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

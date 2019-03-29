@@ -1,0 +1,27 @@
+{
+  "name": "SetScriptToPrintedStatusRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "RetrievalCode": {
+      "type": "guid"
+    },
+    "LicenseId": {
+      "type": "guid"
+    },
+    "UserId": {
+      "type": "guid"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "CCDResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Status": {
+      "type": "ResponseStatus"
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Errors": {
+      "type": "Errors"
+    },
+    "CCD": {
+      "type": "string"
+    },
+    "IsAllowPatientMedHistory": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

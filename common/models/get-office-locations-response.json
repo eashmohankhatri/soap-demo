@@ -1,0 +1,27 @@
+{
+  "name": "GetOfficeLocationsResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "OfficeLocations": {
+      "type": "ArrayOfOfficeLocation"
+    },
+    "Messages": {
+      "type": "ArrayOfString"
+    },
+    "Success": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

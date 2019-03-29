@@ -1,0 +1,39 @@
+{
+  "name": "TaskListItem",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "LastCalled": {
+      "type": "string"
+    },
+    "PatientID": {
+      "type": "string"
+    },
+    "PatientName": {
+      "type": "string"
+    },
+    "ProviderID": {
+      "type": "string"
+    },
+    "ProviderName": {
+      "type": "string"
+    },
+    "TaskCount": {
+      "type": "number"
+    },
+    "TaskType": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

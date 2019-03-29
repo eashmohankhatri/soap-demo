@@ -1,0 +1,36 @@
+{
+  "name": "MessageQueueScriptInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MessageType": {
+      "type": "string"
+    },
+    "PatientID": {
+      "type": "guid"
+    },
+    "RxID": {
+      "type": "guid"
+    },
+    "SiteID": {
+      "type": "number"
+    },
+    "ProviderID": {
+      "type": "guid"
+    },
+    "ProviderName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

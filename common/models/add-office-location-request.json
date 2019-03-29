@@ -1,0 +1,78 @@
+{
+  "name": "AddOfficeLocationRequest",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "reqAuditInfo": {
+      "type": "AuditInfo"
+    },
+    "DbID": {
+      "type": "ConnectionStringPointer"
+    },
+    "EPrescribeApplication": {
+      "type": "ePrescribeApplication"
+    },
+    "PerformanceLogTransactionID": {
+      "type": "string"
+    },
+    "LoggingInfo": {
+      "type": "LoggingInfo"
+    },
+    "LicenseID": {
+      "type": "string"
+    },
+    "PartnerID": {
+      "type": "string"
+    },
+    "OfficeName": {
+      "type": "string"
+    },
+    "Address1": {
+      "type": "string"
+    },
+    "Address2": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "ZipCode": {
+      "type": "string"
+    },
+    "PhoneAreaCode": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "FaxAreaCode": {
+      "type": "string"
+    },
+    "FaxNumber": {
+      "type": "string"
+    },
+    "TimeZone": {
+      "type": "string"
+    },
+    "AllowAdmin": {
+      "type": "boolean"
+    },
+    "Preferences": {
+      "type": "ArrayOfPreferences"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

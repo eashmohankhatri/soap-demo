@@ -1,0 +1,21 @@
+{
+  "name": "ArrayOfMessageQueueScriptInfo",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "MessageQueueScriptInfo": {
+      "type": "MessageQueueScriptInfo"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

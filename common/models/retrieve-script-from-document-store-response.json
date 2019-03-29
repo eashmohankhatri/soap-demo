@@ -1,0 +1,27 @@
+{
+  "name": "RetrieveScriptFromDocumentStoreResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "ErrorMessage": {
+      "type": "string"
+    },
+    "ResponseType": {
+      "type": "ServiceResponseType"
+    },
+    "ScriptPdfBase64": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "TaskResponse",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Status": {
+      "type": "ResponseStatus"
+    },
+    "Errors": {
+      "type": "Errors"
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Tasks": {
+      "type": "TaskList"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "PostHL7Message",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "partnerID": {
+      "type": "string"
+    },
+    "hl7Message": {
+      "type": "string"
+    },
+    "interfaceType": {
+      "type": "InterfaceType"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
