@@ -15,9 +15,7 @@
     "soapHeaders": [
       {
         "element": {
-          "AuthHeader": `<PartnerID>string</PartnerID>
-          <UserName>string</UserName>
-          <Password>string</Password>`
+          "AuthHeader": "<PartnerID>string</PartnerID><UserName>string</UserName><Password>string</Password>"
         },
         "prefix": "AuthHeader",
         "namespace": "https://stscripts.allscripts.com/"
