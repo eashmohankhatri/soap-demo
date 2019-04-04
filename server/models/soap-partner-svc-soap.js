@@ -149,8 +149,8 @@ module.exports = function (PartnerSvcPartnerSvcSoap) {
      * @callback {Function} callback Callback function
      * @returns {any} callback containing error or result. Result is the response/soap body in JSON form.
      */
-    PartnerSvcPartnerSvcSoap.SavePatient = function (SavePatient, callback) {
-        PartnerSvcPartnerSvcSoap.SavePatient(SavePatient, function (err, response) {
+    PartnerSvcPartnerSvcSoap.SavePatient = function (data, callback) {
+        PartnerSvcPartnerSvcSoap.SavePatient(data, function (err, response) {
             var result = response;
             callback(err, result);
         });
@@ -712,8 +712,8 @@ module.exports = function (PartnerSvcPartnerSvcSoap) {
                 { produces: 'application/xml' }],
             accepts:
                 [{
-                    arg: 'SavePatient',
-                    type: 'SavePatient',
+                    arg: 'data',
+                    type: 'Object',
                     description: 'SavePatient',
                     required: true,
                     http: { source: 'body' }

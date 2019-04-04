@@ -15,10 +15,26 @@
     "soapHeaders": [
       {
         "element": {
-          "AuthHeader": "<PartnerID>string</PartnerID><UserName>string</UserName><Password>string</Password>"
+          "AuthHeader": "<PartnerID>2aa2f10c-1f48-4ab8-b089-645bd61eef97</PartnerID><UserName>InteliMDWebUser</UserName><Password>P@ssword12#</Password>"
         },
         "prefix": "AuthHeader",
         "namespace": "https://stscripts.allscripts.com/"
+      }
+    ]
+  },
+  "partnerDS": {
+    "url": "https://eprescribeint.allscripts.com/PartnerServices/PartnerSvc.asmx",
+    "name": "partnerDS",
+    "wsdl": "https://eprescribeint.allscripts.com/PartnerServices/PartnerSvc.asmx?WSDL",
+    "remotingEnabled": true,
+    "connector": "soap",
+    "soapHeaders": [
+      {
+        "element": {
+          "AuthHeader": "<PartnerID>2aa2f10c-1f48-4ab8-b089-645bd61eef97</PartnerID><UserName>InteliMDWebUser</UserName><Password>P@ssword12#</Password>"
+        },
+        "prefix": "AuthHeader",
+        "namespace": "https://eprescribe.allscripts.com/partnerservices/"
       }
     ]
   }

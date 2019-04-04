@@ -632,5 +632,9 @@
   "soap_PartnerSvcSoap12": {
     "dataSource": null,
     "public": true
+  },
+  "Test": {
+    "dataSource": null,
+    "public": true
   }
 }
