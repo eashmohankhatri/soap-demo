@@ -15,7 +15,7 @@
     "soapHeaders": [
       {
         "element": {
-          "AuthHeader": "<PartnerID>string</PartnerID><UserName>string</UserName><Password>string</Password>"
+          "AuthHeader": "<PartnerID>2aa2f10c-1f48-4ab8-b089-645bd61eef97</PartnerID><UserName>InteliMDWebUser</UserName><Password>P@ssword12#</Password>"
         },
         "prefix": "AuthHeader",
         "namespace": "https://stscripts.allscripts.com/"
@@ -31,10 +31,17 @@
     "soapHeaders": [
       {
         "element": {
+<<<<<<< HEAD
+          "AuthHeader": "<PartnerID>2aa2f10c-1f48-4ab8-b089-645bd61eef97</PartnerID><UserName>InteliMDWebUser</UserName><Password>P@ssword12#</Password>"
+        },
+        "prefix": "AuthHeader",
+        "namespace": "https://eprescribe.allscripts.com/partnerservices/"
+=======
           "AuthHeader": "<PartnerID>string</PartnerID><UserName>string</UserName><Password>string</Password>"
         },
         "prefix": "AuthHeader",
         "namespace": "https://stscripts.allscripts.com/"
+>>>>>>> c2a60685e465e7b6000e451b91b799df125c84b9
       }
     ]
   }
